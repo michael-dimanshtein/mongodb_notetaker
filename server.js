@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration
-var databaseUrl = "noteTaker";
+var databaseUrl = "mongodb://michaeldimanshtein:michael89@ds241875.mlab.com:41875/michael_note_taker";
 var collections = ["notes"];
 
 // Hook mongojs config to db variable
