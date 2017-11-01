@@ -1,7 +1,3 @@
-/* Note Taker (18.2.6)
- * backend
- * ==================== */
-
 // Dependencies
 var express = require("express");
 var mongojs = require("mongojs");
